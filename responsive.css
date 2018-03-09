@@ -1,0 +1,112 @@
+/* Medium Layout:1280px */
+@media only screen and (min-width:992px) and (max-width:1200px){
+	.header-top-area{
+		/*font-size: 50px;*/
+	}
+}
+
+/* Tablet Layout:768px */
+@media only screen and (min-width:768px) and (max-width:991px){
+
+.header-top-area, .header-top-area .text-right, .logo, .main-menu ul{
+	text-align: center;
+}
+.main-menu ul li a{
+	padding: 10px 20px;
+}
+.main-menu li ul{
+	top: 80px;
+}
+
+.main-menu li:hover ul{
+	top: 48px;
+}
+
+.single-slide-item h2{
+	font-size: 40px;
+}
+
+.single-slide-item{
+	font-size: 17px;
+	text-align: center;
+}
+
+.factorian-cta-area, .factorian.cta-area .text-right{
+	text-align: center;
+}
+
+.factorian-cta-area .cta-btn{
+	margin-top: 15px;
+}
+
+.who-we-are-text{
+	padding: 20px 0;
+}
+
+.padding-left-30{
+	margin-top: 30px;
+}
+
+.footer-wid{
+	padding-bottom: 0;
+	padding-top: 50px;
+}
+
+.footer-top-area{
+	padding-bottom: 50px;
+	padding-top: 30px;
+}
+}
+
+/* Mobile Layout:320px */
+@media only screen and  (max-width:767px){
+
+.header-top-area, .header-top-area .text-right, .logo,  {
+	text-align: center;
+}
+
+.main-menu{
+	display: none;
+}
+
+.single-slide-item h2{
+	font-size: 40px;
+}
+
+.single-slide-item{
+	font-size: 17px;
+	text-align: center;
+}
+
+.factorian-cta-area, .factorian.cta-area .text-right{
+	text-align: center;
+}
+
+.factorian-cta-area .cta-btn{
+	margin-top: 15px;
+}
+
+.who-we-are-text{
+	padding: 20px 0;
+}
+
+.padding-left-30{
+	margin-top: 30px;
+}
+
+.footer-wid{
+	padding-bottom: 0;
+	padding-top: 50px;
+}
+
+.footer-top-area{
+	padding-bottom: 50px;
+	padding-top: 30px;
+}
+}
+/* Wide Mobile Layout:480px */
+@media only screen and (min-width:480px) and (max-width:767px){
+.header-top-area, .header-top-area .text-right, .logo, .main-menu ul{
+	text-align: center;
+}
+}
